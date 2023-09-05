@@ -32,3 +32,22 @@ To install a dependency use:
 `mix deps.get`
 
 To run test use: `mix test`
+
+
+## maps
+Map in elixir is the same with Python Dictionary, with keys and value. or same with Ruby
+colors = %{primary: "red", secondary: "blue"}
+# to access this use .:
+colors.primary
+
+Or by pattern Matching
+# or using pattern matching:
+%{secondary: secondary_color} = colors
+https://hexdocs.pm/elixir/main/Map.html
+
+Update using pipe:
+%{colors | primary: "blue"}
+
+## keyword list
+colors = [{:primary, "red"}, {:secondary, "blue"}]
+colors[:primary]
