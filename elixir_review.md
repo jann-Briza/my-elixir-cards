@@ -1,3 +1,4 @@
+By - Stephen Grider
 Creating a elixir phoenix projects use:
 mix <project_name>
 
@@ -51,3 +52,9 @@ Update using pipe:
 ## keyword list
 colors = [{:primary, "red"}, {:secondary, "blue"}]
 colors[:primary]
+
+## Struct
+Calling a struct
+```
+%Identicon.Image{}
+```
